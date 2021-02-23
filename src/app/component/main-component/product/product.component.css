@@ -1,0 +1,14 @@
+img {
+    width: 100%;
+    height: auto;
+    margin: 1mm;
+    padding: 1px;
+}
+
+.product {
+    justify-content: space-between;
+}
+
+button {
+    margin: 5px;
+}

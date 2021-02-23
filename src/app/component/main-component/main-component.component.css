@@ -1,0 +1,14 @@
+#filter {
+    width: 20%;
+    float: left;
+}
+
+#product {
+    width: 60%;
+    float: left;
+}
+
+#cart {
+    width: 20%;
+    float: right;
+}

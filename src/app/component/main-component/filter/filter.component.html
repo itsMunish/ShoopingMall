@@ -1,0 +1,30 @@
+<div class="Menu">
+    <!-- Heading -->
+    <div class="heading"> <br>
+        <h1>Filters</h1>
+        <hr><br>
+    </div>
+
+    <!-- radio button -->
+    <div class="radio">
+        <mat-radio-group>
+            <mat-radio-button value="Men">Men</mat-radio-button><br><br>
+
+            <mat-radio-button value="Woman">Women</mat-radio-button>
+            <br><br>
+            <mat-radio-button value="Kids">Boys</mat-radio-button><br><br>
+            <mat-radio-button value="Kids">Girls</mat-radio-button><br><br>
+
+        </mat-radio-group>
+        <hr><br>
+    </div>
+
+    <!-- Price slider -->
+    <div class="price">
+        <h3>
+            <p>Price </p>
+        </h3>
+        <mat-slider thumbLabel [displayWith]="numfromat" tickInterval="1000" min="1" max="100000" color="warn"></mat-slider>
+    </div>
+
+</div>

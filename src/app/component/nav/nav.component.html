@@ -1,0 +1,40 @@
+<mat-toolbar color="primary" class="navbar">
+    <div style="padding-left: 2rem;">
+        <mat-icon>store</mat-icon>
+        ShoppingMall
+
+    </div>
+
+    <div>
+        <mat-form-field floatLabel="always" color="accent">
+            <mat-label></mat-label>
+            <input matInput>
+
+        </mat-form-field>
+        <mat-icon style="margin-right: 3rem;"> search</mat-icon>
+
+
+        <span>Home</span>
+
+        <button mat-raised-button [matMenuTriggerFor]="more" color="primary"><span>More</span></button>
+        <mat-menu #more="matMenu">
+            <button mat-menu-item><span matBadge="5" matBadgePosition="above after" matBadgeSize="medium" matBadgeColor="warn">
+               Notifications  <mat-icon>circle_notifications</mat-icon></span></button>
+
+            <button mat-menu-item> My Profile</button>
+            <button mat-menu-item>Order</button>
+            <button mat-menu-item>Wishlist</button>
+        </mat-menu>
+
+        <button mat-fab [matMenuTriggerFor]="menu" class="login">Login</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item><span>New Customer ? <a href="#"> signup</a></span></button>
+            <hr>
+            <button mat-menu-item> My Profile</button>
+            <button mat-menu-item>Order</button>
+            <button mat-menu-item>Wishlist</button>
+        </mat-menu>
+
+
+    </div>
+</mat-toolbar>

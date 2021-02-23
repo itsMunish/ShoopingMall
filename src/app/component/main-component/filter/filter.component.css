@@ -1,0 +1,21 @@
+h1 {
+    font-family: Garamond, serif;
+    text-align: center;
+    font-size: 30x;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.radio {
+    margin: 10px;
+}
+
+mat-slider {
+    margin: 10px;
+    width: 250px;
+}
